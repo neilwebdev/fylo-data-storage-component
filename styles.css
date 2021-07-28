@@ -1,0 +1,51 @@
+.attribution 
+{ font-size: 11px; text-align: center; }
+.attribution a 
+{ color: hsl(228, 45%, 44%); }
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html {
+ /* /* width: 100%;
+ height: 100%; */
+} 
+
+
+/* Mobile First ************** */
+body {
+ font-family: 'Raleway', sans-serif;
+ min-height: 100vh;
+ width: 100%;
+ background-image: url('images/bg-mobile.png');
+ background-repeat: no-repeat;
+ background-size:cover
+
+}
+.wrapper {
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+ height:100vh;
+
+}
+
+.icon-container {
+ margin-top: 150px;
+ width: 375px;
+ height: 200px;
+ background-color: hsl(228, 56%, 26%);
+ border-radius: 5px 100px 5px 5px ;
+}
+.storage-container {
+ margin-top: 10px;
+ height: 150px;
+width: 375px;
+background-color: hsl(228, 56%, 26%);
+border-radius: 5px ;
+
+}
